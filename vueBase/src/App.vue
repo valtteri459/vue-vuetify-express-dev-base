@@ -28,7 +28,7 @@
       </v-navigation-drawer>
       <v-toolbar class="indigo" dark app>
         <v-toolbar-side-icon @click.stop="sideOpen = !sideOpen"></v-toolbar-side-icon>
-        <v-toolbar-title class="white--text hidden-sm-and-down">Neural net manager</v-toolbar-title>
+        <v-toolbar-title class="white--text hidden-sm-and-down">Example site</v-toolbar-title>
         <v-spacer class="hidden-xs-only"></v-spacer>
         <v-spacer v-if="!searchOpen" class="hidden-sm-and-up"></v-spacer>
         <v-text-field
